@@ -1,6 +1,6 @@
 import axios from "axios"
 const alinetypographytestAPI = axios.create({
-  baseURL: "https://aline-typography-tes-7992.herokuapp.com/",
+  baseURL: "https://aline-typography-tes-7992.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list() {
