@@ -161,7 +161,8 @@ export class _Blank extends React.Component {
               textShadow: "0pt 0pt 0pt #000000",
               textDecoration: "none",
               textTransform: "none",
-              lineHeight: 1
+              lineHeight: 1,
+              letterSpacing: 15
             }}
           >
             This should be centered.
