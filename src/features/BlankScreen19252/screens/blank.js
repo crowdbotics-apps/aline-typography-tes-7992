@@ -91,7 +91,7 @@ export class _Blank extends React.Component {
           textDecoration: "none",
           textTransform: "none",
           lineHeight: 1,
-          letterSpacing: 5
+          letterSpacing: 9
         }}
       >
         I am testing letter spacing here.
