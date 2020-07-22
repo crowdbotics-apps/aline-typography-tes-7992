@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = {}
+  state = { Radio_3: true }
 
   render = () => (
     <View
@@ -96,6 +96,37 @@ export class _Blank extends React.Component {
       >
         I am testing letter spacing here.
       </Text>
+      <Radio
+        text="Radio button"
+        disabled={false}
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "center",
+          verticalAlign: "baseline",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          textShadow: "0pt 0pt 0pt #000000",
+          textDecoration: "none",
+          textTransform: "none",
+          lineHeight: 1
+        }}
+        checked={this.state.Radio_3}
+        onChange={nextChecked => this.setState({ Radio_3: nextChecked })}
+      />
     </View>
   )
 }
